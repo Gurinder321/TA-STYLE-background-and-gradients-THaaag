@@ -1,0 +1,306 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: #21222f;
+  font-family: "Karla", sans-serif;
+  /* font-family: "DM Serif Display", serif; */
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px;
+}
+.circle {
+  width: 40px;
+  height: 22px;
+  background: linear-gradient(to right, #4097d7, #3ecd93);
+  margin-left: 10px;
+  border-radius: 50px;
+}
+.mini-circle {
+  width: 19px;
+  height: 19px;
+  background-color: #262b46;
+  margin-top: 2px;
+  margin-left: 3px;
+  border-radius: 50%;
+}
+.right-heading {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-heading h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.left-heading h6 {
+  font-size: 16px;
+  color: #8790af;
+  font-weight: 600;
+}
+.right-heading h6 {
+  font-size: 16px;
+  color: #8790af;
+  font-weight: 600;
+}
+.section-1 {
+  width: 220px;
+  height: 180px;
+  border-top: 5px solid #238ae7;
+  background-color: #242b43;
+  border-radius: 5px;
+}
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.first-section img {
+  width: 25px;
+  margin-right: 8px;
+}
+.section-1 .dates h2 {
+  font-size: 58px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 12px;
+  color: white;
+}
+.section-1 .dates h4 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  letter-spacing: 4px;
+  color: #606984;
+  text-transform: uppercase;
+}
+.section-1 .follower-count img {
+  width: 15px;
+  margin-right: 8px;
+}
+.follower-count {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: green;
+}
+.first-section h4 {
+  color: #606984;
+  font-weight: 600;
+}
+.s-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.section-2-heading h3 {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+/* SECOND BOX */
+
+.section-2-box {
+  width: 220px;
+  height: 100px;
+  background-color: #242b43;
+  border-radius: 5px;
+}
+.page-view-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.page-view-box img {
+  width: 25px;
+  align-items: center;
+}
+.caret-counter img {
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+}
+.follower-count .red {
+  color: red;
+}
+
+.caret-counter-down img {
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+}
+
+.caret-counter p {
+  color: green;
+  font-weight: 800;
+}
+.caret-counter .red {
+  color: red;
+}
+.caret-counter {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.section-2-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 20px;
+}
+.page-view-box h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #8790af;
+}
+.counter h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+.s-3 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.s-4 {
+  margin-bottom: 100px;
+}
